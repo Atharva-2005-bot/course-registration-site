@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register for Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Course Registration</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label for="student-name">Full Name:</label>
+      <input type="text" id="student-name" name="student-name" required>
+
+      <label for="student-id">Student ID:</label>
+      <input type="text" id="student-id" name="student-id" required>
+
+      <label for="course-select">Select Course:</label>
+      <select id="course-select" name="course">
+        <option value="CS101">CS101 - Intro to CS</option>
+        <option value="MATH201">MATH201 - Calculus II</option>
+        <option value="ENG102">ENG102 - Writing</option>
+        <option value="HIST210">HIST210 - History</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 University Name</p>
+  </footer>
+</body>
+</html>
+
